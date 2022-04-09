@@ -7,12 +7,12 @@ val moduleName = "lavaplayer-ext-format-xm"
 version = "0.1.0"
 
 repositories {
-  maven(url = "https://dl.bintray.com/gabixdev/kyoko")
+  maven(url = "https://jitpack.io")
 }
 
 dependencies {
   compileOnly(project(":main"))
-  implementation("com.github.micromod:ibxm:a73")
+  implementation("com.github.Bigoud33:ibxm-fork:a75")
 }
 
 val sourcesJar by tasks.registering(Jar::class) {

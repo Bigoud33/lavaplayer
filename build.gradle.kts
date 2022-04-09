@@ -3,7 +3,7 @@ plugins {
   `maven-publish`
 }
 
-group = "com.sedmelluq"
+group = "games.bigoud"
 
 allprojects {
   group = rootProject.group
